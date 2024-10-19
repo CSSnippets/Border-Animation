@@ -53,7 +53,7 @@ body {
 }
 
 .card::after {
-    filter: blur(30px);
+    filter: blur(1.5rem);
     opacity: 0.7;
     animation: spin 3s linear infinite, blur-effect 3s linear infinite;
 }
